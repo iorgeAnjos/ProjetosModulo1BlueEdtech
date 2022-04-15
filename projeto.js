@@ -36,7 +36,7 @@ console.log(
 let desafio2 = prompt('Deseja ajudar a jovem Bulma?(s/n): ').toLowerCase();
 while (desafio2 != 's' && desafio2 != 'n'){
     console.log('Resposta inválida!');
-    desafio2 = prompt('Deseja ajudar a jovem Bulma? ').toLowerCase();
+    desafio2 = prompt('Deseja ajudar a jovem Bulma?(s/n): ').toLowerCase();
 }
 if (desafio2 == 's') {
     life++;
@@ -60,7 +60,7 @@ console.log(
 let desafio3 = prompt('Deseja ajudar a tartaruga?(s/n): ').toLowerCase();
 while (desafio3 != 's' && desafio3 != 'n'){
     console.log('Resposta inválida!');
-    desafio3 = prompt('Deseja ajudar a tartaruga?: ').toLowerCase();
+    desafio3 = prompt('Deseja ajudar a tartaruga?(s/n): ').toLowerCase();
 }
 if (desafio3 == 's') {
     life++;
@@ -107,7 +107,7 @@ console.log(
 let desafio5 = prompt('Deseja intervir na situação?(s/n): ').toLowerCase();
 while (desafio5 != 's' && desafio5 != 'n'){
     console.log('Resposta inválida!');
-    desafio5 = prompt('Deseja atacar o javali? (s/n): ').toLowerCase();
+    desafio5 = prompt('Deseja intervir na situação? (s/n): ').toLowerCase();
 }
 if (desafio5 == 's') {
     life++;
