@@ -12,7 +12,7 @@ console.log(
 let desafio = prompt('Deseja atacar o javali? (s/n): ').toLowerCase();
 //mesmo com o uso do while, eu decidi pôr o To.LowerCase para facilitar na dinâmica do projeto
 while (desafio != 's' && desafio != 'n'){
-    console.log('Resposta inválida!');
+    console.log('Responda apenas com "s" ou "n"');
     desafio = prompt('Deseja atacar o javali? (s/n): ').toLowerCase();
 }
 if (desafio == 's') {
@@ -35,7 +35,7 @@ console.log(
 );
 let desafio2 = prompt('Deseja ajudar a jovem Bulma?(s/n): ').toLowerCase();
 while (desafio2 != 's' && desafio2 != 'n'){
-    console.log('Resposta inválida!');
+    console.log('Responda apenas com "s" ou "n"');
     desafio2 = prompt('Deseja ajudar a jovem Bulma?(s/n): ').toLowerCase();
 }
 if (desafio2 == 's') {
@@ -59,7 +59,7 @@ console.log(
 );
 let desafio3 = prompt('Deseja ajudar a tartaruga?(s/n): ').toLowerCase();
 while (desafio3 != 's' && desafio3 != 'n'){
-    console.log('Resposta inválida!');
+    console.log('Responda apenas com "s" ou "n"');
     desafio3 = prompt('Deseja ajudar a tartaruga?(s/n): ').toLowerCase();
 }
 if (desafio3 == 's') {
@@ -82,7 +82,7 @@ let desafio4 = prompt(
     'Deseja participar da torre e testar os seus limites?(s/n): ',
 ).toLowerCase();
 while (desafio4 != 's' && desafio4 != 'n'){
-    console.log('Resposta inválida!');
+    console.log('Responda apenas com "s" ou "n"');
     desafio4 = prompt('Deseja participar da torre e testar os seus limites?(s/n): ').toLowerCase();
 }
 if (desafio4 == 's') {
@@ -106,7 +106,7 @@ console.log(
 );
 let desafio5 = prompt('Deseja intervir na situação?(s/n): ').toLowerCase();
 while (desafio5 != 's' && desafio5 != 'n'){
-    console.log('Resposta inválida!');
+    console.log('Responda apenas com "s" ou "n"');
     desafio5 = prompt('Deseja intervir na situação? (s/n): ').toLowerCase();
 }
 if (desafio5 == 's') {
