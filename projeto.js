@@ -132,8 +132,7 @@ if (life == 5) {
     console.log(
         'O menino Goku conseguiu juntar as sete esferas do dragão, conseguindo realizar o seu desejo: Comer a carne mais gostosa do mundo!'
     );
-}
-if (life == 4) {
+}else if(life == 4) {
     console.log('===================================');
     console.log(
         'Depois de muito esforço você quase conquistou o seu objetivo, embora não de maneira perfeita.',
@@ -141,8 +140,7 @@ if (life == 4) {
     console.log(
         'O menino Goku chegou muito perto de juntar todas as esferas, tente novamente para que ele possa realizar o seu desejo!'
     );
-}
-if (life == 3) {
+}else if(life == 3) {
     console.log('===================================');
     console.log(
         'Você chega perto de conseguir alcançar seu objetivo, mas acaba falhando por pouco.',
@@ -150,8 +148,7 @@ if (life == 3) {
     console.log(
         'O menino Goku chegou perto, porêm acabou se passando na sua procura.'
     );
-}
-if (life == 2 || life == 1) {
+}else if (life == 2 || life == 1) {
     console.log('===================================');
     console.log(
         'Você falha, mas ainda consegue fugir da situação.'
@@ -159,8 +156,7 @@ if (life == 2 || life == 1) {
     console.log(
         'Infelizmente, nosso pequeno Goku falhou na sua busca, porêm nenhuma aventura chega ao fim se ainda tivermos vida!'
     );
-}
-if (life == 0) {
+}else {
     console.log('===================================');
     console.log(
         'Você falha miseravelmente.'
